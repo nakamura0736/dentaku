@@ -45,8 +45,8 @@
 			str = '一人 ' + (price.value / num.value) + ' 円ちょうどです！(^^)b';
 			console.log('just');
 		}else {
-			str = 
-				'一人 ' + payLess + '円だと' + short + ' 円足りません。'  +   
+			str =
+				'一人 ' + payLess + '円だと' + short + ' 円足りません。'  +
 				'一人 ' + payMore + '円だと' + over + ' 円余ります。';
 
 			// console.log('clicked!!!!!');
@@ -57,7 +57,7 @@
 	});
 
 	price.addEventListener('keyup', checkInput);
-	num.addEventListener('keyup', checkInput);
+	num.addEventListener('change', checkInput);
 	reset.addEventListener('click', function(){
 		result.textContent = 'ここに結果を表示します(; ・ ω ・ )ﾄﾞｷﾄﾞｷ...'
 		price.value = '';
