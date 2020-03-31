@@ -1,4 +1,4 @@
-# dentaku
+# JavaScriptで割り勘電卓を作ろう
 
 #### ページURL
 https://nakamura0736.github.io/dentaku/
